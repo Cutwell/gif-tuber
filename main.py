@@ -17,7 +17,7 @@ avatar_speaking = ""
 avatar_mute     = ""
 
 activation          = False
-activation_hold     = 2000
+activation_hold     = 500
 activation_clock    = 0
 
 def update(indata, outdata, frames, time, status):
@@ -27,7 +27,7 @@ def update(indata, outdata, frames, time, status):
     global activation
 
     volume_norm = np.linalg.norm(indata)*10
-    #print (int(volume_norm))
+    print(int(volume_norm))
 
     # skip update if animating
     if activation:
