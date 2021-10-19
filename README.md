@@ -2,7 +2,7 @@
  Create an OBS avatar (for livestreaming, youtube) using GIFs
 
 ### OBS Studio setup
- - Create two `Image` sources, set to sources (.gif, etc.), and layered on top of each other. One for `speaking` and one for `mute` animations / images.
+ - Create two `Image` sources, set to images (.gif, etc.), and layered on top of each other. One for `speaking` and one for `mute` animations / images.
  - Other sources can also be used, for instance `Image Slide Show`.
 
 ### OBS Script setup
