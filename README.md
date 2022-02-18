@@ -12,5 +12,12 @@
 
 ### Script settings
  - Set the activation threshold (view the `Script Log` to view audio input).
- - Set the activation hold (how long the speaking source will be visible after audio input passes below the activation threshold).
+ - Adjust the parameters to fit your audio levels and gif images.
  - Set the avatar `speaking` and `mute` sources to the source names defined earlier.
+
+ _Note: Setting `audio frames read per interval` metric too high will result in significant FPS issues due to blocking._
+ 
+ _Tip: Use the `audio levels log` checkbox to set `activation threshold` to an ideal level_
+
+ ### License
+ MIT License
