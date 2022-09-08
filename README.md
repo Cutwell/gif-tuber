@@ -1,4 +1,4 @@
-# gif-avatar
+# gif-tuber
  Create an OBS avatar (for livestreaming, youtube) using GIFs
 
 ### OBS Studio setup
